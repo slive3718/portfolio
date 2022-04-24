@@ -1,0 +1,86 @@
+body{
+    background-color:#DAE3E7;
+}
+.jumbotron{
+    font-family:'Montserrat', sans-serif;
+    color:#515355;
+}
+.display-4{
+    font-weight:700;
+    font-size:40px;
+}
+
+.display-2{
+    font-weight:700;
+    font-size:25px;
+}
+
+.icon{
+    font-size: 40px;
+    margin-left: 5px;
+    color:#515355;
+}
+.icon-box{
+    margin-top: 20px;
+}
+
+.profile-info{
+    /*background-color:white;*/
+    width:100%;
+}
+
+.about-me{
+    max-width:800px;
+    margin-left: 300px
+}
+.about-me-right{
+    max-width:800px;
+    margin-left: 50px
+}
+
+.emploer-icon{
+    height:50px
+}
+.profile-photo{
+    margin-top:-15px
+}
+
+
+.imgGallery img
+{
+    box-shadow:1px 1px 5px #000;
+    max-height:15em; /* delet it */
+}
+
+.imgGallery img:hover
+{
+    margin-top:20px;
+    transition:all 0.6s; /* Change Speed */
+    -ms-transform: scale(3, 3); /* IE 9 */
+    -webkit-transform: scale(3, 3); /* Safari */
+    transform: scale(3, 3); /* Change Size */
+    overflow:visible;
+    z-index:1 !important; /* you can change it, but better let this in default */
+}
+
+
+.imgGallery .item-1:hover
+{
+    -ms-transform: translate(100px); /* IE 9 */
+    -webkit-transform: translate(100px); /* Safari */
+    transform: translate(100px); /* Change Offset */
+    z-index:2; /* you can change it, but better let this in default */
+}
+
+.imgGallery .item-2:hover
+{
+    z-index:2; /* you can change it, but better let this in default */
+}
+
+.imgGallery .item-3:hover
+{
+    -ms-transform: translate(-100); /* IE 9 */
+    -webkit-transform: translate(-100px); /* Safari */
+    transform: translate(-100px); /* Change Offset */
+    z-index:2; /* you can change it, but better let this in default */
+}
