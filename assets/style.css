@@ -31,11 +31,10 @@ body{
 
 .about-me{
     max-width:800px;
-    margin-left: 300px
+
 }
 .about-me-right{
     max-width:800px;
-    margin-left: 50px
 }
 
 .emploer-icon{
@@ -83,4 +82,11 @@ body{
     -webkit-transform: translate(-100px); /* Safari */
     transform: translate(-100px); /* Change Offset */
     z-index:2; /* you can change it, but better let this in default */
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .display-4{
+        font-weight:700;
+        font-size:30px;
+    }
 }
